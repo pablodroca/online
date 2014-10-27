@@ -1,0 +1,1 @@
+var contactenosController = angular.module('contactenosController', []);contactenosController.controller('ContactenosCtrl', ['$scope', '$http',  function ($scope, $http) {    $scope.message = 'Ingrese su mensaje...';    $scope.success = false;    $scope.error = false;        $scope.submit = function (){        $scope.success = true;    };  }]);
